@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/b13fd06c54.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>AI/ML Enthusiast</p>
+                <h1>Hi, i am <span>Rameshwari Kapoor </span><br>from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--.................. ABOUT..................... -->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="My_Image.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p class="about-content">Greetings,<br>I am a pre-final year B.Tech CSE student at Graphic Era Hill University. My areas of interest includes Artificial Intelligence and Web Development. I am well-versed with Python, C, C++ and Java and have sound knowledge of Database Management System and Operating System.
+                    </p>
+
+                    <div class="about-tab-titles">
+                        <p class="tab-link active" onclick="show_content('skills')">Skills</p>
+                        <p class="tab-link" onclick="show_content('certifications')">Certifications</p>
+                        <p class="tab-link" onclick="show_content('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Machine Learning</span><br> Convolutional Neural Network<li>
+                            <li><span>Deep Learning</span><br> Natural Language Processing</li>
+                            <li><span>Web Development</span><br> Web App Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>Programming Essentials in Python</span><br> Provided by Cisco Networking Academy<li>
+                            <li><span>Machine Learning with Python</span><br>Provided By IBM</li>
+                            <li><span>Responsive Website Basics</span><br> Provided by Cousera</li>
+                            <li><span>Introduction to Git And Github</span><br>Provided by Coursera</li>
+                        </ul>
+                    </div> 
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021- Current</span><br> B.Tech from Graphic Era Hill University<li>
+                            <li><span>2021</span><br> XII th from Convent of Jesus And Mary</li>
+                            <li><span>2019 Development</span><br> X th from Convent of Jesus And Mary</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ....................SERVICES.................... -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Machine Learning</h2>
+                    <p>With over 5 projects completed, a machine learning enthusiast skilled in Python can provide services like building smart systems that predict trends, suggest products, or understand language on websites. By using Python's machine learning libraries, they make websites more intuitive and helpful for users.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Web Development</h2>
+                    <p>With expertise in HTML, CSS, and JavaScript, a web developer can craft attractive and user-friendly websites. With experience in over 5 projects, they can provide services like creating custom website designs, adding interactive features, and optimizing site performance for a better user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ...............Portfolio section................. -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+             <div class="project-list">
+                <div class="proj">
+                    <img src="mnist.png" >
+                    <div class="layer">
+                        <h3>Handwritten Digit Recognition</h3>
+                        <p>This project is trained on MNIST dataset.A GUI has also been created using streamlit to assist human interaction with the model.The model predicts the digit drawn on the GUI. </p>
+                        <a href="https://github.com/RameshwariKapoor/Handwritten-Digit-Recognition-with-GUI-/tree/master/Handwritten%20digit%20recognizer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>    
+                </div>
+                <div class="proj">
+                    <img src="farming.jpg" >
+                    <div class="layer">
+                        <h3>Crop Recommendation System</h3>
+                        <p>Various Machine Learning algorithms like have been compared and the best model is saved. A GUI has been created using streamlit app with an option of language translation.</p>
+                        <a href="https://github.com/RameshwariKapoor/Crop-Recommendation-System"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="proj">
+                    <img src="fake news.png" >
+                    <div class="layer">
+                        <h3>Fake News Detection</h3>
+                        <p>It is a NLP project where top 25 news is considered.Using functions of nltk library, algorithms like bag of words, tf-idf, word2vec and Machine Learning algorithms the result is classified as fake or real.</p>
+                        <a href="https://github.com/RameshwariKapoor/Daily-News-for-Stock-Market-Prediction"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+             </div>
+             <a href="https://github.com/RameshwariKapoor?tab=repositories" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- .........contact section............ -->
+
+    <div id="contact">
+        <div class="container">
+            
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> rameshwari.kapoor09@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91-9458979784</p>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/rameshwari-kapoor-954bb722a/"><i class="fa-brands fa-linkedin"></i></a>
+
+                        <a href="https://github.com/RameshwariKapoor"><i class="fa-brands fa-github"></i></a>
+                    </div>                    
+                    <a href="Rameshwari_Kapoor_Resume[1]_Web.pdf"class="btn btn2">
+                        Download Resume
+                    </a>
+                </div>
+
+                <div class="contact-right">
+                    <form action="backend.php" method="post">
+                        <input type="text" name="Name" placeholder="Your Full Name: " required>
+                        <input type="tel" name="MobileNumber" placeholder="Your Contact Number: " required>
+                        <input type="email" name="Email" placeholder="Your Email id:" required>
+                        <textarea name="Message" rows="10" placeholder="Any Message you want to convey:"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-link");
+        var tabContents = document.getElementsByClassName("tab-contents");
+
+        function show_content(tab_name){
+            for(tl of tablinks){
+                tl.classList.remove("active");
+            }
+
+            for( tc of tabContents)
+            {
+                tc.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active");
+            document.getElementById(tab_name).classList.add("active-tab")
+        }
+    </script>
+</body>
+</html>
